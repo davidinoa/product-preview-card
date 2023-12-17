@@ -31,51 +31,54 @@
   <body
     class="bg-[#F2EAE2] text-white grid place-content-center min-w-screen min-h-screen p-4 font-['Montserrat']"
   >
-    <div
-      class="rounded-[0.625rem] max-w-[37.5rem] text-zinc-900 grid lg:grid-cols-2 overflow-clip"
-    >
-      <div>
-        <picture>
-          <source
-            srcset="public/images/image-product-desktop.jpg"
-            media="(min-width: 61rem)"
-          />
-          <img src="public/images/image-product-mobile.jpg" alt="product" />
-        </picture>
-      </div>
-      <div class="p-6 lg:p-8 text-[#6C7289] bg-white">
-        <hgroup class="grid gap-3 lg:gap-5 mb-4 lg:mb-6">
-          <p
-            class="uppercase text-xs font-medium tracking-[0.3125rem] leading-tight"
-          >
-            Perfume
+    <main>
+      <div
+        class="rounded-[0.625rem] max-w-[37.5rem] text-zinc-900 grid lg:grid-cols-2 overflow-clip"
+      >
+        <div>
+          <picture>
+            <source
+              srcset="public/images/image-product-desktop.jpg"
+              media="(min-width: 61rem)"
+            />
+            <img src="public/images/image-product-mobile.jpg" alt="product" />
+          </picture>
+        </div>
+        <div class="p-6 lg:p-8 text-[#6C7289] bg-white">
+          <hgroup class="grid gap-3 lg:gap-5 mb-4 lg:mb-6">
+            <span
+              class="uppercase text-xs font-medium tracking-[0.3125rem] leading-tight"
+            >
+              Perfume
+            </span>
+            <h1
+              class="font-['Fraunces'] font-bold leading-none text-[2rem] text-[#1C232B]"
+            >
+              Gabrielle Essence Eau De Parfum
+            </h1>
+          </hgroup>
+          <p class="text-sm leading-[23px] mb-6 font-medium">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <h2
-            class="font-['Fraunces'] font-bold leading-none text-[2rem] text-[#1C232B]"
+          <p class="flex items-center gap-[19px] mb-5 lg:mb-[1.875rem]">
+            <span
+              class="font-['Fraunces'] text-[#3D8168] text-[2rem] leading-none"
+              >$149.99</span
+            >
+            <s class="text-[0.8125rem] leading-[23px]"
+              ><span class="sr-only">Old price:</span>$169.99</s
+            >
+          </p>
+          <button
+            type="button"
+            class="w-full p-[0.9375rem] bg-[#3D8168] text-white rounded-lg flex justify-center items-center gap-3 hover:bg-[#1A4032] transition-colors"
           >
-            Gabrielle Essence Eau De Parfum
-          </h2>
-        </hgroup>
-        <p class="text-sm leading-[23px] mb-6 font-medium">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <p class="flex items-center gap-[19px] mb-5 lg:mb-[1.875rem]">
-          <span class="font-['Fraunces'] text-[#3D8168] text-[2rem]"
-            >$149.99</span
-          >
-          <s class="text-[0.8125rem] leading-[23px]"
-            ><span class="sr-only">Old price:</span>$169.99</s
-          >
-        </p>
-        <button
-          type="button"
-          class="w-full p-[0.9375rem] bg-[#3D8168] text-white rounded-lg flex justify-center items-center gap-3 hover:bg-[#1A4032] transition-colors"
-        >
-          <img src="public/images/icon-cart.svg" alt="" />
-          <span class="text-sm leading-tight font-bold">Add to Cart</span>
-        </button>
+            <img src="public/images/icon-cart.svg" alt="" />
+            <span class="text-sm leading-tight font-bold">Add to Cart</span>
+          </button>
+        </div>
       </div>
-    </div>
+    </main>
   </body>
 </html>
